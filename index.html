@@ -63,6 +63,14 @@
           width: 100% !important;
         }
       }  
+      @media not all and (min-resolution:.001dpcm)
+      { 
+        @supports (-webkit-appearance:none) {
+          .footer_top { 
+            display: none;
+          }
+        }
+      }
     </style> 
 </head>
 <body>
