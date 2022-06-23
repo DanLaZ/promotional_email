@@ -66,8 +66,23 @@
       @media not all and (min-resolution:.001dpcm)
       { 
         @supports (-webkit-appearance:none) {
-          .footer_top { 
-            display: none;
+          /*Footer Top*/
+          .footer_top span {
+            display: none !important;
+          }
+          .footer_top-left {
+            display: initial !important;
+            padding: 0 !important;
+            padding-left: 30px !important;
+            width: 100% !important;
+          }
+          .footer_top-right {
+            display: initial !important;
+            border: none !important;
+            padding: 0 !important;
+            padding-top: 50px !important;
+            padding-left: 30px !important;
+            width: 100% !important;
           }
         }
       }
